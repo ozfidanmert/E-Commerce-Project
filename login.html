@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt Ol</title>
+
+    <link rel="stylesheet" href="./Css/login.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+
+
+    <div class="containerr">
+
+        <div class="navbarr">
+            <div class="logo">
+                <img src="./images/logo.png" alt="LOGO">
+            </div>
+
+            <div class="navv">
+                <ul id="menuItemss">
+                    <li><a href="/index.html">Ana Sayfa</a></li>
+                    <li><a href="/products.html">Ürünlerimiz</a></li>
+                    <li><a href="/login.html">Giriş Yap</a></li>
+                    <li><a href="/register.html">Üye Ol</a></li>
+                </ul>
+
+                <div class="iconCart">
+                    <a href="#">
+                        <i id="iconCart" class='bx bx-shopping-bag'></i>
+                        <div class="totalQuantity">0</div>
+                    </a>
+                </div>
+
+                <a href="javascript:void(0)" class="menu-icon"><i class='bx bx-menu menu'
+                        onclick="menuToggle()"></i></a>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <div id="rowSlider">
+        <div id="carouselExampleCaptions" class="carousel slide sliderr">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="slider-img">
+                        <img src="./images/slider1.png" class="d-flex w-25" alt="...">
+                    </div>
+
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="slider-img">
+                        <img src="./images/slider2.png" class="d-block img2" alt="...">
+                    </div>
+
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!--Sepet-->
+    <div class="cart">
+        <h2>SEPETİM</h2>
+
+        <div class="listCart">
+
+        </div>
+
+
+        <div class="totalPrice text-center m-2">
+            Toplam Fiyat: <span id="totalPriceValue">0 ₺</span>
+        </div>
+
+        <div class="buttons">
+            <div class="close">KAPAT</div>
+            <div class="checkout">
+                <a href="checkout.html">
+                    SİPARİŞ VER
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="form-container mt-5 mb-5">
+            <form class="" action="">
+                <div class="text-center mb-5">
+                    <hr>
+                    <h1>Hemen Giriş Yap</h1>
+                    <small><a class="text-decoration-none text-success" href="/register.html">Mevcut bir hesabın yok
+                            mu?</a></small>
+                    <hr>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <label for="" class="form-label">E-Mail</label>
+                        <input type="email" class="form-control" id="">
+                    </div>
+                    <div class="col-md-12 mb-4">
+                        <label for="" class="form-label">Şifre</label>
+                        <input type="password" class="form-control" id="">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <input type="checkbox" id="" class="form-check-input">
+                        <label for="" class="form-check-label">Beni Hatırla.</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <button type="submit" class="btn btn-primary mt-3 mb-2 w-100">Giriş Yap</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+    <footer class="footer mt-5">
+        <div class="small-container">
+            <div class="footer-row">
+                <div id="footer-item" class="coll-4">
+                    <h4>Download Our App</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                    <div class="download">
+                        <img src="./images/play-store.png" alt="">
+                        <img src="./images/app-store.png" alt="">
+                    </div>
+                </div>
+
+                <div id="footer-item" class="coll-4">
+                    <img src="./images/logo-white.png" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, ut? Lorem, ipsum.</p>
+                </div>
+
+                <div id="footer-item" class="coll-4">
+                    <h4>Useful Links</h4>
+                    <p>Lorem.</p>
+                    <p>Lorem.</p>
+                    <p>Lorem.</p>
+                    <p>Lorem.</p>
+                </div>
+
+                <div id="footer-item" class="coll-4">
+                    <h4>Follow Us</h4>
+                    <p>Lorem2.</p>
+                    <p>Lorem3.</p>
+                    <p>Lorem4.</p>
+                    <p>Lorem5.</p>
+                </div>
+                <p id="copy">Copyright 2024 - Mert Özfidan</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="./Js/sepet.js"></script>
+
+    <script>
+        let menuItems = document.getElementById("menuItemss")
+
+        menuItems.style.maxHeight = "0px";
+
+        function menuToggle() {
+            if (menuItems.style.maxHeight == "0px") {
+                menuItems.style.maxHeight = "210px";
+            }
+            else {
+                menuItems.style.maxHeight = "0px";
+            }
+        }
+
+    </script>
+</body>
+
+</html>
