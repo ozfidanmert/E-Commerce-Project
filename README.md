@@ -10,7 +10,7 @@
 
 <!-- Project Description -->
 <h2>Project Description</h2>
-<p>This project is a fully responsive e-commerce website developed using HTML, CSS, Bootstrap, and JavaScript. The website is designed to adapt seamlessly to all devices, including desktops, tablets, and mobile phones, providing an optimal viewing experience across various screen sizes. This project showcases my ability to create a modern, user-friendly, and fully functional e-commerce platform.</p>
+<p>This project is a fully responsive e-commerce website developed using HTML, CSS, Bootstrap, and JavaScript. The website is designed to adapt seamlessly to all devices, including desktops, tablets, and mobile phones, providing an optimal viewing experience across various screen sizes. This project showcases my ability to create a modern, user-friendly, and fully functional e-commerce platform</p>
 
 <!-- Features -->
 <h2>Features</h2>
