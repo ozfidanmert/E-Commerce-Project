@@ -3,7 +3,7 @@
 
 <!-- Live Demo ve Badges -->
 <p align="center">
-    <a href="YOUR_LIVE_DEMO_URL">
+    <a href="https://e-commerce-one.mertozfidan.com.tr/">
         <img src="https://img.shields.io/badge/Live-Demo-brightgreen" alt="Live Demo">
     </a>
 </p>
